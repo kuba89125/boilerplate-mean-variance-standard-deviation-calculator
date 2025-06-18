@@ -27,7 +27,7 @@ def calculate(list):
     var_flat = matrix_list.var()            #
 
     mean_row = matrix_list.mean(axis=0)       #
-    mean_col = matrix_list.mean(axis=1)       # Calculate variance
+    mean_col = matrix_list.mean(axis=1)       # Calculate mean
     mean_flat = matrix_list.mean()            #
 
 
